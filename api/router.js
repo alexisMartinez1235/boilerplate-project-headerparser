@@ -11,7 +11,7 @@ router.get('/whoami', (req, res) => {
   const ipaddress = req.headers['x-forwarded-for'];
   const software = req.headers["user-agent"];
 
-  console.log(software);
+  // console.log(software);
   
   res.json({
     ipaddress,
